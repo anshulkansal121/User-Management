@@ -3,7 +3,7 @@ mongoose.set('strictQuery',false);
 const connectDB = async()=>
 {
     try{
-        const conn = await mongoose.connect('mongodb+srv://itsmeanshul121:qJt7tKNsxzXDiteN@cluster0.hmiqakb.mongodb.net/user-management');
+        const conn = await mongoose.connect('mongodb+srv://itsmeanshul121:qJt7tKNsxzXDiteN@cluster0.hmiqakb.mongodb.net/user-management?retryWrites=true&w=majority&appName=Cluster0');
         console.log(`Database connected ${conn.connection.host}`);  
     }catch(error)
     {
