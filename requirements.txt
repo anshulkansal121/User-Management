@@ -1,0 +1,11 @@
+npm i
+
+dotenv
+ejs
+express
+express-ejs-layouts
+express-flash-messages
+express-session
+method-override
+mongoose
+nodemon
