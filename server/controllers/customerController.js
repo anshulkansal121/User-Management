@@ -32,6 +32,7 @@ exports.about = async(req,res)=>{
 
 exports.addCustomer = async (req, res) => {
     res.render('customer/add');
+    
 }
 
 exports.postCustomer = async (req, res) => {
